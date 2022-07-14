@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.campos{
+    display: grid;
+    justify-content: center;
+    width: auto;
+    align-items: center;
+}
+
+input{
+    margin: .5rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+.button{
+    background-color: rgb(28, 51, 124);
+    text-transform: uppercase;
+    font-weight: 900;
+    height: 2rem;
+    width: 50%;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-radius: 10px;
+}
+
+.button:hover{
+    border-color: black;
+}
+
+.container{
+    text-align: center;
+}
