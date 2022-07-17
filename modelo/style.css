@@ -6,9 +6,7 @@
 }
 
 body{
-    background: url(assets/img.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
     width: 100vw;
     height: 100vh;
     
@@ -24,7 +22,7 @@ body{
 }
 
 .container{
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgb(255, 255, 255);
     min-height: 400px;
     width: 300px;
     padding: 1rem;
@@ -33,7 +31,6 @@ body{
 
 h1{
     text-align: center;
-    color: rgb(125, 125, 125);
     text-transform: uppercase;
     font-weight: 900;
     margin-bottom: 2rem;
@@ -49,7 +46,8 @@ p{
     color: black;
     background-color: rgb(125, 125, 125);
     border-radius: 10px;
-    padding: 5px;    
+    padding: 5px;
+    margin-top: 1rem;    
 }
 
 .form{
@@ -59,13 +57,12 @@ p{
 }
 
 input{
-    color: rgb(224, 224, 224);
+    
     width: 90%;
     margin: 1rem;
     height: 2rem;
     border: 0;
     border-bottom: 1px solid;
-    border-color: rgb(125, 125, 125);
     background-color: transparent;
 }
 
@@ -76,16 +73,17 @@ input:focus{
 button{
     width: 70%;
     height: 2rem;
-    color: rgb(224, 224, 224);
     background-color: rgb(86, 0, 0);
     border-radius: 8px;
     text-transform: uppercase;
     font-weight: 900;
-    margin-top: .5rem;
+    margin-top: 2rem;
     cursor: pointer;
+    border-color: transparent;
 }
 
 button:hover{
     transform: translateY(-3px);
     transition: .3s;
+    border-color: black;
 }
