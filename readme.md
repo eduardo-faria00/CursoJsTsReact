@@ -11,3 +11,7 @@
 ## aula20: Exercício sobre array, objetos e funções
 ## aula21: Operadores de comparação
 ## aula22: Operadores lógicos
+## aula27: Operação ternária
+## aula28: Objeto date
+## aula29: Switch/case
+## aula30: Exercício com Switch e Date
