@@ -15,3 +15,5 @@
 ## aula28: Objeto date
 ## aula29: Switch/case
 ## aula30: Exercício com Switch e Date
+## aula32: Atribuição via desestruturação (arrays)
+## aula33: Atribuição via desestruturação (objetos)
