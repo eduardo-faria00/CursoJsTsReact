@@ -59,5 +59,8 @@ h1{
     transform: translateY(-3px);
     transition: .3s;
     box-shadow: 0 10px 30px 1px rgba(0, 0, 0, 0.85);
-   
+}
+
+.pause{
+    color: red;
 }
