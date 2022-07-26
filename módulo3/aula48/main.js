@@ -51,14 +51,14 @@ function saveTask(){
 
 /*===================================== obtém tasks do local Storage ====================================*/
 
-function getSaveTasks (){
+(function getSaveTasks (){
     const tasks = localStorage.getItem('tasks')
     const tasksList = JSON.parse(tasks)
 
     for(let task of tasksList){
         createTask(task)
     }
-}
+})()
 
 /*===================================== adiciona task com enter =====================================*/
 

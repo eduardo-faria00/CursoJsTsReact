@@ -1,0 +1,9 @@
+## aula49: Declarações de função
+## aula50: Parâmetros de função
+## aula51: Retorno de função
+## aula52: escopo léxico
+## aula53: closures
+## aula54: funções de callback
+## aula55: IIFE
+## aula56: factory functions
+## aula57: Exercício com factory functions

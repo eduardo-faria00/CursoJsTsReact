@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(26, 83, 105);
+}
+/* ==================================== add task ===================================*/
+.container{
+    height: auto;
+    width: 40%;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: aliceblue;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.85);
+}
+
+h1{
+    margin: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.add-task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-task{
+    margin: 1rem 0;
+    outline: none;
+    border: 1px solid;
+    border-radius: 8px;
+    height: 1.5rem;
+    padding: 0 5px;
+}
+
+.add{
+    margin: 5px 10px;
+    width: 4rem;
+    height: 2rem;
+    padding: 2px;
+    border: 1px solid;
+    border-radius: 8px;
+    outline: transparent;
+    color: aliceblue;
+    background-color: rgb(26, 83, 105);
+    cursor: pointer;
+}
+
+.add:hover{
+    border-color: black;
+    transition: .3s;
+}
+
+/* ==================================== task list ===================================*/
+
+.container-2{
+    min-height: 30%;
+    width: 40%;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: aliceblue;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.85);
+}
+
+.task-list{
+    list-style: none;
+    width: 100%;
+    height: auto;
+}
+
+.task-list li{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(185, 185, 185);
+    padding: .15rem;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+.delete{
+    margin: 0px 10px;
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 4px;
+    outline: transparent;
+    color: aliceblue;
+    background-color: rgb(26, 83, 105);
+    cursor: pointer;
+}
+
+.delete:hover{
+    
+    background-color: rgb(163, 1, 1);
+    transition: .3s;
+}
