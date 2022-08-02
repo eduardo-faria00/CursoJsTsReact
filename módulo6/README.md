@@ -5,3 +5,7 @@
 ## aula74: Prototypes
 ## aula75: Manipulando prototypes
 ## aula76: Herança
+## aula77: Validação de CPF
+## aula78: Polimorfismo
+## aula79: Factory functions + Prototype
+## aula80: Estrutura de dados Map
