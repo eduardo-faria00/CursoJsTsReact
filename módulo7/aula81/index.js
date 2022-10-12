@@ -45,7 +45,7 @@ class Pessoa {
   }
   // setando o nome completo já seta nome e sobrenome
   set nomeCompleto(valor) {
-    ;[this.nome, this.sobrenome] = valor.split(' ')
+    [this.nome, this.sobrenome] = valor.split(' ')
   }
 }
 
